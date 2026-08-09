@@ -1,0 +1,26 @@
+[
+  {
+    "provider": "azure",
+    "account_id": "sub-001",
+    "region": "centralindia",
+    "resource_id": "/subscriptions/sub-001/resourceGroups/rg-demo/providers/Microsoft.Compute/disks/orphan-disk",
+    "resource_type": "managed_disk",
+    "resource_name": "orphan-disk",
+    "status": "unattached",
+    "monthly_cost": 35.0,
+    "currency": "USD"
+  },
+  {
+    "provider": "azure",
+    "account_id": "sub-001",
+    "region": "centralindia",
+    "resource_id": "/subscriptions/sub-001/resourceGroups/rg-demo/providers/Microsoft.Compute/virtualMachines/test-vm",
+    "resource_type": "azure_vm",
+    "resource_name": "test-vm",
+    "status": "running",
+    "monthly_cost": 120.0,
+    "currency": "USD",
+    "cpu_avg_pct": 4.0,
+    "days_idle": 21
+  }
+]

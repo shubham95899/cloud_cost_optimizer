@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+.env
+cost_optimizer.db
+data/
+.pytest_cache/

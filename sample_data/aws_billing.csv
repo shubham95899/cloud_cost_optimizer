@@ -1,0 +1,5 @@
+provider,account_id,region,resource_id,resource_type,resource_name,status,monthly_cost,currency,cpu_avg_pct,days_idle,attached_to
+aws,123456789012,ap-south-1,vol-001,ebs,old-data-disk,unattached,42.50,USD,,, 
+aws,123456789012,ap-south-1,i-001,ec2,dev-server,running,88.00,USD,3.5,14,
+aws,123456789012,ap-south-1,i-002,ec2,prod-server,running,250.00,USD,48.0,0,
+aws,123456789012,ap-south-1,vol-002,ebs,db-disk,attached,75.00,USD,,,i-002
